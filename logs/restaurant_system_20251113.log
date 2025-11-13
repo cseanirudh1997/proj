@@ -1,0 +1,102 @@
+2025-11-13 01:46:17,787 - RestaurantSystem - INFO - Restaurant Invigilation System initialized
+2025-11-13 01:46:24,365 - CameraManager - ERROR - Error loading models:   Download failure for https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8n.pt. Environment is not online.
+2025-11-13 01:46:25,007 - CameraManager - WARNING - Primary source failed for parking_camera, trying backup
+2025-11-13 01:46:25,525 - CameraManager - INFO - Camera parking_camera initialized successfully with source: 12
+2025-11-13 01:46:25,528 - CameraManager - WARNING - Primary source failed for gate_camera, trying backup
+2025-11-13 01:46:25,578 - CameraManager - ERROR - Failed to initialize camera gate_camera
+2025-11-13 01:46:25,586 - CameraManager - WARNING - Primary source failed for queue_camera, trying backup
+2025-11-13 01:46:25,592 - CameraManager - ERROR - Failed to initialize camera queue_camera
+2025-11-13 01:46:25,595 - CameraManager - WARNING - Primary source failed for kitchen_camera, trying backup
+2025-11-13 01:46:25,609 - CameraManager - ERROR - Failed to initialize camera kitchen_camera
+2025-11-13 01:46:25,616 - RestaurantSystem - INFO - Starting Restaurant Invigilation System...
+2025-11-13 01:46:25,656 - DatabaseManager - INFO - Database initialized successfully
+2025-11-13 01:46:25,657 - CameraManager - INFO - Starting camera monitoring...
+2025-11-13 01:46:25,658 - KPIProcessor - INFO - Starting KPI processing...
+2025-11-13 01:46:25,660 - CameraManager - INFO - All camera monitoring threads started
+2025-11-13 01:46:25,660 - RestaurantSystem - INFO - All system components started successfully
+2025-11-13 01:46:35,673 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:46:46,685 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:46:57,698 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:47:08,713 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:47:19,726 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:47:30,753 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:47:41,768 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:47:52,784 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:48:03,811 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:48:14,827 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:48:25,847 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:48:36,855 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:48:47,865 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:48:58,871 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:49:09,891 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:49:20,917 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:49:31,923 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:49:42,932 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:49:53,947 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:50:04,966 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:50:15,986 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:50:27,007 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:50:38,031 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:50:49,040 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:51:00,049 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:51:11,073 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:51:22,086 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:51:33,098 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:51:44,124 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:51:55,143 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:52:06,163 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:52:17,174 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:52:28,192 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:52:39,243 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:52:50,252 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:53:01,260 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:53:12,355 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:53:23,363 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:53:34,371 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:53:45,388 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:53:56,404 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:54:07,420 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:54:18,452 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:54:29,461 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:54:40,486 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:54:51,506 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:55:02,528 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:55:13,555 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:55:24,586 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:55:35,607 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:55:46,630 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:55:57,645 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:56:08,668 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:56:19,675 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:56:30,696 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:56:41,723 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:56:52,751 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:57:03,775 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:57:14,797 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:57:25,822 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:57:36,854 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:57:47,861 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:57:58,883 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:58:09,903 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:58:20,910 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:58:31,927 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:58:42,956 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:58:53,976 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:59:04,999 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:59:16,023 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:59:27,040 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:59:38,044 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 01:59:49,067 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 02:00:00,085 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 02:00:11,100 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 02:00:22,121 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 02:00:33,138 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 02:00:44,142 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 02:00:54,672 - RestaurantSystem - INFO - Shutdown signal received
+2025-11-13 02:00:54,672 - RestaurantSystem - INFO - Stopping Restaurant Invigilation System...
+2025-11-13 02:00:54,675 - CameraManager - INFO - Stopping camera monitoring...
+2025-11-13 02:00:55,165 - CameraManager - WARNING - Failed to read frame from parking_camera
+2025-11-13 02:00:56,170 - CameraManager - INFO - Camera monitoring stopped
+2025-11-13 02:00:56,170 - KPIProcessor - INFO - Stopping KPI processing...
+2025-11-13 02:00:56,170 - DatabaseManager - INFO - Database connections closed
+2025-11-13 02:00:57,438 - RestaurantSystem - INFO - Restaurant Invigilation System stopped
