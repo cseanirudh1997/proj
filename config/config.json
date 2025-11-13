@@ -1,0 +1,128 @@
+{
+    "cameras": {
+        "parking_camera": {
+            "id": 0,
+            "name": "Parking Area Camera",
+            "type": "vehicle_detection",
+            "source": "rtsp://admin:password@192.168.1.100:554/stream1",
+            "backup_source": 0,
+            "resolution": [1920, 1080],
+            "fps": 30,
+            "detection_zone": {
+                "x": 0,
+                "y": 0,
+                "width": 1920,
+                "height": 1080
+            }
+        },
+        "gate_camera": {
+            "id": 1,
+            "name": "Gate Entry/Exit Camera",
+            "type": "person_tracking",
+            "source": "rtsp://admin:password@192.168.1.101:554/stream1",
+            "backup_source": 1,
+            "resolution": [1920, 1080],
+            "fps": 30,
+            "detection_zone": {
+                "x": 200,
+                "y": 100,
+                "width": 1520,
+                "height": 880
+            },
+            "entry_line": {
+                "x1": 960,
+                "y1": 200,
+                "x2": 960,
+                "y2": 800
+            }
+        },
+        "queue_camera": {
+            "id": 2,
+            "name": "Order Queue Camera",
+            "type": "queue_analysis",
+            "source": "rtsp://admin:password@192.168.1.102:554/stream1",
+            "backup_source": 2,
+            "resolution": [1920, 1080],
+            "fps": 30,
+            "queue_zones": [
+                {
+                    "name": "counter_queue",
+                    "x": 300,
+                    "y": 200,
+                    "width": 800,
+                    "height": 600
+                }
+            ]
+        },
+        "kitchen_camera": {
+            "id": 3,
+            "name": "Kitchen Staff Camera",
+            "type": "staff_monitoring",
+            "source": "rtsp://admin:password@192.168.1.103:554/stream1",
+            "backup_source": 3,
+            "resolution": [1920, 1080],
+            "fps": 30,
+            "monitoring_zones": {
+                "wash_station": {
+                    "x": 100,
+                    "y": 150,
+                    "width": 400,
+                    "height": 300
+                },
+                "work_area": {
+                    "x": 600,
+                    "y": 200,
+                    "width": 1000,
+                    "height": 700
+                }
+            }
+        }
+    },
+    "models": {
+        "vehicle_detection": {
+            "model_path": "models/yolov8n.pt",
+            "confidence_threshold": 0.5,
+            "classes": [2, 3, 5, 7],
+            "track_vehicles": true
+        },
+        "person_detection": {
+            "model_path": "models/yolov8n.pt",
+            "confidence_threshold": 0.6,
+            "classes": [0],
+            "track_persons": true
+        },
+        "pose_detection": {
+            "model_path": "mediapipe",
+            "confidence_threshold": 0.7,
+            "hand_washing_detection": true
+        }
+    },
+    "analytics": {
+        "update_interval": 5,
+        "save_interval": 60,
+        "retention_days": 30,
+        "kpis": {
+            "customer_flow": true,
+            "vehicle_count": true,
+            "queue_metrics": true,
+            "staff_attendance": true,
+            "hygiene_compliance": true
+        }
+    },
+    "database": {
+        "type": "sqlite",
+        "path": "data/restaurant_analytics.db",
+        "backup_enabled": true,
+        "backup_interval": 3600
+    },
+    "dashboard": {
+        "port": 8501,
+        "refresh_rate": 5,
+        "show_live_feed": true,
+        "alert_thresholds": {
+            "max_queue_length": 10,
+            "min_staff_count": 2,
+            "max_wait_time": 300
+        }
+    }
+}
